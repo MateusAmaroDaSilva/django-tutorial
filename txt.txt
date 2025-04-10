@@ -1,0 +1,21 @@
+{
+    "instalação":   pipenv install
+                    pipenv install django
+
+                    pipenv shell
+                    pipenv install django
+                    django-admin --version (validar se esta instalado realmente)
+
+                    django-admin startproject mysite ./
+                    python manage.py runserver
+                    python manage.py startapp polls
+
+    
+    "iniciar":      pipenv shell
+                    python manage.py runserver
+
+    "login admin":  admin (user)
+                    admin123 (password)
+                    admin@example.com (e-mail)
+    
+}
